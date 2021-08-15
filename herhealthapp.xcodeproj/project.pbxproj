@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC96A55626C997620071C3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A55526C997620071C3DA /* AppDelegate.swift */; };
+		DC96A55826C997620071C3DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A55726C997620071C3DA /* SceneDelegate.swift */; };
+		DC96A55C26C997620071C3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC96A55B26C997620071C3DA /* Assets.xcassets */; };
+		DC96A55F26C997620071C3DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC96A55E26C997620071C3DA /* Preview Assets.xcassets */; };
+		DC96A56226C997620071C3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC96A56026C997620071C3DA /* LaunchScreen.storyboard */; };
+		DC96A56D26C997620071C3DA /* herhealthappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A56C26C997620071C3DA /* herhealthappTests.swift */; };
+		DC96A57826C997620071C3DA /* herhealthappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A57726C997620071C3DA /* herhealthappUITests.swift */; };
+		DC96A59626C997740071C3DA /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58526C997740071C3DA /* ArticleDetailView.swift */; };
+		DC96A59726C997740071C3DA /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58626C997740071C3DA /* ContactUsView.swift */; };
+		DC96A59826C997740071C3DA /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58726C997740071C3DA /* AsyncImage.swift */; };
+		DC96A59926C997740071C3DA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58826C997740071C3DA /* VideoView.swift */; };
+		DC96A59A26C997740071C3DA /* ServiceHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58926C997740071C3DA /* ServiceHomeView.swift */; };
+		DC96A59B26C997740071C3DA /* ResourcesHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58A26C997740071C3DA /* ResourcesHomeView.swift */; };
+		DC96A59C26C997740071C3DA /* PodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58B26C997740071C3DA /* PodcastView.swift */; };
+		DC96A59D26C997740071C3DA /* ArticleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58C26C997740071C3DA /* ArticleHomeView.swift */; };
+		DC96A59E26C997740071C3DA /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58D26C997740071C3DA /* ImageCache.swift */; };
+		DC96A59F26C997740071C3DA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58E26C997740071C3DA /* ImageLoader.swift */; };
+		DC96A5A026C997740071C3DA /* PodcastAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A58F26C997740071C3DA /* PodcastAPI.swift */; };
+		DC96A5A126C997740071C3DA /* BlogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59026C997740071C3DA /* BlogAPI.swift */; };
+		DC96A5A226C997740071C3DA /* EnvValImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59126C997740071C3DA /* EnvValImageCache.swift */; };
+		DC96A5A326C997740071C3DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59226C997740071C3DA /* ContentView.swift */; };
+		DC96A5A426C997740071C3DA /* ServiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59326C997740071C3DA /* ServiceDetailView.swift */; };
+		DC96A5A526C997740071C3DA /* VideoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59426C997740071C3DA /* VideoAPI.swift */; };
+		DC96A5A626C997740071C3DA /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A59526C997740071C3DA /* AboutUsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC96A56926C997620071C3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC96A54A26C997620071C3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC96A55126C997620071C3DA;
+			remoteInfo = herhealthapp;
+		};
+		DC96A57426C997620071C3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC96A54A26C997620071C3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC96A55126C997620071C3DA;
+			remoteInfo = herhealthapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC96A55226C997620071C3DA /* herhealthapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herhealthapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC96A55526C997620071C3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC96A55726C997620071C3DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC96A55B26C997620071C3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC96A55E26C997620071C3DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC96A56126C997620071C3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC96A56326C997620071C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC96A56826C997620071C3DA /* herhealthappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = herhealthappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC96A56C26C997620071C3DA /* herhealthappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = herhealthappTests.swift; sourceTree = "<group>"; };
+		DC96A56E26C997620071C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC96A57326C997620071C3DA /* herhealthappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = herhealthappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC96A57726C997620071C3DA /* herhealthappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = herhealthappUITests.swift; sourceTree = "<group>"; };
+		DC96A57926C997620071C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC96A58526C997740071C3DA /* ArticleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		DC96A58626C997740071C3DA /* ContactUsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		DC96A58726C997740071C3DA /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		DC96A58826C997740071C3DA /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		DC96A58926C997740071C3DA /* ServiceHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHomeView.swift; sourceTree = "<group>"; };
+		DC96A58A26C997740071C3DA /* ResourcesHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesHomeView.swift; sourceTree = "<group>"; };
+		DC96A58B26C997740071C3DA /* PodcastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastView.swift; sourceTree = "<group>"; };
+		DC96A58C26C997740071C3DA /* ArticleHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleHomeView.swift; sourceTree = "<group>"; };
+		DC96A58D26C997740071C3DA /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DC96A58E26C997740071C3DA /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DC96A58F26C997740071C3DA /* PodcastAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastAPI.swift; sourceTree = "<group>"; };
+		DC96A59026C997740071C3DA /* BlogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogAPI.swift; sourceTree = "<group>"; };
+		DC96A59126C997740071C3DA /* EnvValImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvValImageCache.swift; sourceTree = "<group>"; };
+		DC96A59226C997740071C3DA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC96A59326C997740071C3DA /* ServiceDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailView.swift; sourceTree = "<group>"; };
+		DC96A59426C997740071C3DA /* VideoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoAPI.swift; sourceTree = "<group>"; };
+		DC96A59526C997740071C3DA /* AboutUsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC96A54F26C997620071C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A56526C997620071C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A57026C997620071C3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC96A54926C997620071C3DA = {
+			isa = PBXGroup;
+			children = (
+				DC96A55426C997620071C3DA /* herhealthapp */,
+				DC96A56B26C997620071C3DA /* herhealthappTests */,
+				DC96A57626C997620071C3DA /* herhealthappUITests */,
+				DC96A55326C997620071C3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC96A55326C997620071C3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A55226C997620071C3DA /* herhealthapp.app */,
+				DC96A56826C997620071C3DA /* herhealthappTests.xctest */,
+				DC96A57326C997620071C3DA /* herhealthappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC96A55426C997620071C3DA /* herhealthapp */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A55526C997620071C3DA /* AppDelegate.swift */,
+				DC96A55726C997620071C3DA /* SceneDelegate.swift */,
+				DC96A5A926C998AF0071C3DA /* Views */,
+				DC96A5A726C9988A0071C3DA /* APIs */,
+				DC96A5AC26C999230071C3DA /* Image Configuration */,
+				DC96A55B26C997620071C3DA /* Assets.xcassets */,
+				DC96A56026C997620071C3DA /* LaunchScreen.storyboard */,
+				DC96A56326C997620071C3DA /* Info.plist */,
+				DC96A55D26C997620071C3DA /* Preview Content */,
+			);
+			path = herhealthapp;
+			sourceTree = "<group>";
+		};
+		DC96A55D26C997620071C3DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A55E26C997620071C3DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC96A56B26C997620071C3DA /* herhealthappTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A56C26C997620071C3DA /* herhealthappTests.swift */,
+				DC96A56E26C997620071C3DA /* Info.plist */,
+			);
+			path = herhealthappTests;
+			sourceTree = "<group>";
+		};
+		DC96A57626C997620071C3DA /* herhealthappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A57726C997620071C3DA /* herhealthappUITests.swift */,
+				DC96A57926C997620071C3DA /* Info.plist */,
+			);
+			path = herhealthappUITests;
+			sourceTree = "<group>";
+		};
+		DC96A5A726C9988A0071C3DA /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A59026C997740071C3DA /* BlogAPI.swift */,
+				DC96A58F26C997740071C3DA /* PodcastAPI.swift */,
+				DC96A59426C997740071C3DA /* VideoAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		DC96A5A926C998AF0071C3DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A59526C997740071C3DA /* AboutUsView.swift */,
+				DC96A58C26C997740071C3DA /* ArticleHomeView.swift */,
+				DC96A58626C997740071C3DA /* ContactUsView.swift */,
+				DC96A59226C997740071C3DA /* ContentView.swift */,
+				DC96A58A26C997740071C3DA /* ResourcesHomeView.swift */,
+				DC96A5AB26C998FC0071C3DA /* Resources Views */,
+				DC96A58926C997740071C3DA /* ServiceHomeView.swift */,
+				DC96A59326C997740071C3DA /* ServiceDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC96A5AB26C998FC0071C3DA /* Resources Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A58526C997740071C3DA /* ArticleDetailView.swift */,
+				DC96A58B26C997740071C3DA /* PodcastView.swift */,
+				DC96A58826C997740071C3DA /* VideoView.swift */,
+			);
+			path = "Resources Views";
+			sourceTree = "<group>";
+		};
+		DC96A5AC26C999230071C3DA /* Image Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DC96A59126C997740071C3DA /* EnvValImageCache.swift */,
+				DC96A58726C997740071C3DA /* AsyncImage.swift */,
+				DC96A58D26C997740071C3DA /* ImageCache.swift */,
+				DC96A58E26C997740071C3DA /* ImageLoader.swift */,
+			);
+			path = "Image Configuration";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC96A55126C997620071C3DA /* herhealthapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC96A57C26C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthapp" */;
+			buildPhases = (
+				DC96A54E26C997620071C3DA /* Sources */,
+				DC96A54F26C997620071C3DA /* Frameworks */,
+				DC96A55026C997620071C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = herhealthapp;
+			productName = herhealthapp;
+			productReference = DC96A55226C997620071C3DA /* herhealthapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC96A56726C997620071C3DA /* herhealthappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC96A57F26C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthappTests" */;
+			buildPhases = (
+				DC96A56426C997620071C3DA /* Sources */,
+				DC96A56526C997620071C3DA /* Frameworks */,
+				DC96A56626C997620071C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC96A56A26C997620071C3DA /* PBXTargetDependency */,
+			);
+			name = herhealthappTests;
+			productName = herhealthappTests;
+			productReference = DC96A56826C997620071C3DA /* herhealthappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC96A57226C997620071C3DA /* herhealthappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC96A58226C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthappUITests" */;
+			buildPhases = (
+				DC96A56F26C997620071C3DA /* Sources */,
+				DC96A57026C997620071C3DA /* Frameworks */,
+				DC96A57126C997620071C3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC96A57526C997620071C3DA /* PBXTargetDependency */,
+			);
+			name = herhealthappUITests;
+			productName = herhealthappUITests;
+			productReference = DC96A57326C997620071C3DA /* herhealthappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC96A54A26C997620071C3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DC96A55126C997620071C3DA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DC96A56726C997620071C3DA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DC96A55126C997620071C3DA;
+					};
+					DC96A57226C997620071C3DA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DC96A55126C997620071C3DA;
+					};
+				};
+			};
+			buildConfigurationList = DC96A54D26C997620071C3DA /* Build configuration list for PBXProject "herhealthapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC96A54926C997620071C3DA;
+			productRefGroup = DC96A55326C997620071C3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC96A55126C997620071C3DA /* herhealthapp */,
+				DC96A56726C997620071C3DA /* herhealthappTests */,
+				DC96A57226C997620071C3DA /* herhealthappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC96A55026C997620071C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96A56226C997620071C3DA /* LaunchScreen.storyboard in Resources */,
+				DC96A55F26C997620071C3DA /* Preview Assets.xcassets in Resources */,
+				DC96A55C26C997620071C3DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A56626C997620071C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A57126C997620071C3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC96A54E26C997620071C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96A59E26C997740071C3DA /* ImageCache.swift in Sources */,
+				DC96A5A026C997740071C3DA /* PodcastAPI.swift in Sources */,
+				DC96A5A326C997740071C3DA /* ContentView.swift in Sources */,
+				DC96A59926C997740071C3DA /* VideoView.swift in Sources */,
+				DC96A59F26C997740071C3DA /* ImageLoader.swift in Sources */,
+				DC96A59B26C997740071C3DA /* ResourcesHomeView.swift in Sources */,
+				DC96A59C26C997740071C3DA /* PodcastView.swift in Sources */,
+				DC96A5A426C997740071C3DA /* ServiceDetailView.swift in Sources */,
+				DC96A59826C997740071C3DA /* AsyncImage.swift in Sources */,
+				DC96A5A226C997740071C3DA /* EnvValImageCache.swift in Sources */,
+				DC96A59626C997740071C3DA /* ArticleDetailView.swift in Sources */,
+				DC96A5A126C997740071C3DA /* BlogAPI.swift in Sources */,
+				DC96A5A526C997740071C3DA /* VideoAPI.swift in Sources */,
+				DC96A5A626C997740071C3DA /* AboutUsView.swift in Sources */,
+				DC96A59726C997740071C3DA /* ContactUsView.swift in Sources */,
+				DC96A59D26C997740071C3DA /* ArticleHomeView.swift in Sources */,
+				DC96A55626C997620071C3DA /* AppDelegate.swift in Sources */,
+				DC96A55826C997620071C3DA /* SceneDelegate.swift in Sources */,
+				DC96A59A26C997740071C3DA /* ServiceHomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A56426C997620071C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96A56D26C997620071C3DA /* herhealthappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96A56F26C997620071C3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96A57826C997620071C3DA /* herhealthappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC96A56A26C997620071C3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC96A55126C997620071C3DA /* herhealthapp */;
+			targetProxy = DC96A56926C997620071C3DA /* PBXContainerItemProxy */;
+		};
+		DC96A57526C997620071C3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC96A55126C997620071C3DA /* herhealthapp */;
+			targetProxy = DC96A57426C997620071C3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC96A56026C997620071C3DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC96A56126C997620071C3DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC96A57A26C997620071C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC96A57B26C997620071C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC96A57D26C997620071C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"herhealthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = herhealthapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC96A57E26C997620071C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"herhealthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = herhealthapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC96A58026C997620071C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = herhealthappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/herhealthapp.app/herhealthapp";
+			};
+			name = Debug;
+		};
+		DC96A58126C997620071C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = herhealthappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/herhealthapp.app/herhealthapp";
+			};
+			name = Release;
+		};
+		DC96A58326C997620071C3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = herhealthappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = herhealthapp;
+			};
+			name = Debug;
+		};
+		DC96A58426C997620071C3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = herhealthappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = herhealthapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC96A54D26C997620071C3DA /* Build configuration list for PBXProject "herhealthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC96A57A26C997620071C3DA /* Debug */,
+				DC96A57B26C997620071C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC96A57C26C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC96A57D26C997620071C3DA /* Debug */,
+				DC96A57E26C997620071C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC96A57F26C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC96A58026C997620071C3DA /* Debug */,
+				DC96A58126C997620071C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC96A58226C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC96A58326C997620071C3DA /* Debug */,
+				DC96A58426C997620071C3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC96A54A26C997620071C3DA /* Project object */;
+}
