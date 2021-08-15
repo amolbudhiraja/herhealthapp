@@ -139,7 +139,7 @@ struct ResourcesBlock: View {
                         Text(subHeading1) //Blog
                             .font(.subheadline)
                             .multilineTextAlignment(.leading)
-                            .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+                            .foregroundColor(colorScheme == .dark ? Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)) : Color(#colorLiteral(red: 0.1397067904, green: 0.3545505404, blue: 0.4932047129, alpha: 1)))
                         Spacer()
                     }
                     HStack {
@@ -157,7 +157,7 @@ struct ResourcesBlock: View {
                             .lineLimit(nil)
                             .font(.subheadline)
                             .multilineTextAlignment(.leading)
-                            .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+                            .foregroundColor(colorScheme == .dark ? Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)) : Color(#colorLiteral(red: 0.1397067904, green: 0.3545505404, blue: 0.4932047129, alpha: 1)))
                         Spacer()
                     }
                 }
