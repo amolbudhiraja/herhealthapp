@@ -22,7 +22,8 @@ struct ContentView: View {
                 TabBarView(bottomPadding: 80)
                 
             }
-        }        .navigationBarTitle("")
+        }
+        .navigationBarTitle("")
         .navigationBarHidden(true)
     }
 }
