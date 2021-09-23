@@ -135,14 +135,14 @@ struct OtherArticlesBlock: View {
     var image: String = "https://blackmothersunited.org/wp-content/uploads/2021/07/Picture2.jpg"
     @Environment(\.imageCache) var cache: ImageCache
     var body: some View {
-        ZStack{
+        ZStack(alignment: .center){
             Color.white
                 .cornerRadius(25)
                 .shadow(color: Color.black.opacity(0.3), radius: 10)
                 .padding(15)
             
-            VStack {
-                ZStack{
+            VStack(alignment: .center) {
+                ZStack(alignment: .center){
                     if colorScheme == .dark {
                         Color(#colorLiteral(red: 0.1397067904, green: 0.3545505404, blue: 0.4932047129, alpha: 1))
                             .cornerRadius(25)
@@ -159,16 +159,17 @@ struct OtherArticlesBlock: View {
                         AsyncImage(url: URL(string: image)!,  cache: self.cache, placeholder: Text("Loading ..."), configuration: { $0.resizable()})
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(10)
-                            .frame(width: 75)
+                            .frame(width: 40)
                         Text(title)
                             .bold()
                             .font(.headline)
-                            .foregroundColor(colorScheme == .dark ? Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)) : Color(#colorLiteral(red: 0.1397067904, green: 0.3545505404, blue: 0.4932047129, alpha: 1)))
                             .lineLimit(nil)
+                            .foregroundColor(colorScheme == .dark ? Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)) : Color(#colorLiteral(red: 0.1397067904, green: 0.3545505404, blue: 0.4932047129, alpha: 1)))
+                            
                         Spacer()
                         
-                    }.padding()
-                }.frame(width: UIScreen.main.bounds.width - 20)
+                    }.padding(15)
+                }.frame(width: UIScreen.main.bounds.width - 10)
             }
         }
     }

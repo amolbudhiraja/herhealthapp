@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8EC17BD5238CCEB696534E87 /* Pods_herhealthapp_herhealthappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB3310B0EDF5F0924ADBFC1 /* Pods_herhealthapp_herhealthappUITests.framework */; };
 		CC0F9DD55DFCF30096DC1E31 /* Pods_herhealthappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4FC002480CBAF13A7F04E5 /* Pods_herhealthappTests.framework */; };
+		DC0E842E26F7FEE6008CF766 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E842D26F7FEE6008CF766 /* NotificationService.swift */; };
+		DC0E843226F7FEE6008CF766 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC0E842B26F7FEE6008CF766 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DC96A55626C997620071C3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A55526C997620071C3DA /* AppDelegate.swift */; };
 		DC96A55826C997620071C3DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC96A55726C997620071C3DA /* SceneDelegate.swift */; };
 		DC96A55C26C997620071C3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC96A55B26C997620071C3DA /* Assets.xcassets */; };
@@ -37,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DC0E843026F7FEE6008CF766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC96A54A26C997620071C3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0E842A26F7FEE6008CF766;
+			remoteInfo = NotificationService;
+		};
 		DC96A56926C997620071C3DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC96A54A26C997620071C3DA /* Project object */;
@@ -53,6 +62,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC0E843626F7FEE6008CF766 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC0E843226F7FEE6008CF766 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		032822BCF481B55B37614635 /* Pods_herhealthapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_herhealthapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		390A600901DDE9E6AD12AE45 /* Pods-herhealthappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herhealthappTests.debug.xcconfig"; path = "Target Support Files/Pods-herhealthappTests/Pods-herhealthappTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +86,9 @@
 		A7AAE7A4614DC881AB64845E /* Pods-herhealthapp-herhealthappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herhealthapp-herhealthappUITests.release.xcconfig"; path = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C920F13FAD56A84EB486CDE4 /* Pods-herhealthapp-herhealthappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herhealthapp-herhealthappUITests.debug.xcconfig"; path = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0E842626F7F6DE008CF766 /* herhealthapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = herhealthapp.entitlements; sourceTree = "<group>"; };
+		DC0E842B26F7FEE6008CF766 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0E842D26F7FEE6008CF766 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		DC0E842F26F7FEE6008CF766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC96A55226C997620071C3DA /* herhealthapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herhealthapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC96A55526C997620071C3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC96A55726C997620071C3DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +123,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC0E842826F7FEE6008CF766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC96A54F26C997620071C3DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,12 +170,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DC0E842C26F7FEE6008CF766 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E842D26F7FEE6008CF766 /* NotificationService.swift */,
+				DC0E842F26F7FEE6008CF766 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		DC96A54926C997620071C3DA = {
 			isa = PBXGroup;
 			children = (
 				DC96A55426C997620071C3DA /* herhealthapp */,
 				DC96A56B26C997620071C3DA /* herhealthappTests */,
 				DC96A57626C997620071C3DA /* herhealthappUITests */,
+				DC0E842C26F7FEE6008CF766 /* NotificationService */,
 				DC96A55326C997620071C3DA /* Products */,
 				AF45C87AFBE555642ADFB3BB /* Pods */,
 				E48E5CE2CF362D86709513DC /* Frameworks */,
@@ -155,6 +198,7 @@
 				DC96A55226C997620071C3DA /* herhealthapp.app */,
 				DC96A56826C997620071C3DA /* herhealthappTests.xctest */,
 				DC96A57326C997620071C3DA /* herhealthappUITests.xctest */,
+				DC0E842B26F7FEE6008CF766 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +305,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DC0E842A26F7FEE6008CF766 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0E843326F7FEE6008CF766 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				DC0E842726F7FEE6008CF766 /* Sources */,
+				DC0E842826F7FEE6008CF766 /* Frameworks */,
+				DC0E842926F7FEE6008CF766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = DC0E842B26F7FEE6008CF766 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		DC96A55126C997620071C3DA /* herhealthapp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC96A57C26C997620071C3DA /* Build configuration list for PBXNativeTarget "herhealthapp" */;
@@ -270,10 +331,12 @@
 				DC96A54F26C997620071C3DA /* Frameworks */,
 				DC96A55026C997620071C3DA /* Resources */,
 				94707B9E4EF5024B7AF81C41 /* [CP] Embed Pods Frameworks */,
+				DC0E843626F7FEE6008CF766 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC0E843126F7FEE6008CF766 /* PBXTargetDependency */,
 			);
 			name = herhealthapp;
 			productName = herhealthapp;
@@ -328,6 +391,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					DC0E842A26F7FEE6008CF766 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					DC96A55126C997620071C3DA = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -357,11 +423,19 @@
 				DC96A55126C997620071C3DA /* herhealthapp */,
 				DC96A56726C997620071C3DA /* herhealthappTests */,
 				DC96A57226C997620071C3DA /* herhealthappUITests */,
+				DC0E842A26F7FEE6008CF766 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC0E842926F7FEE6008CF766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC96A55026C997620071C3DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +566,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC0E842726F7FEE6008CF766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0E842E26F7FEE6008CF766 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC96A54E26C997620071C3DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,6 +619,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DC0E843126F7FEE6008CF766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0E842A26F7FEE6008CF766 /* NotificationService */;
+			targetProxy = DC0E843026F7FEE6008CF766 /* PBXContainerItemProxy */;
+		};
 		DC96A56A26C997620071C3DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC96A55126C997620071C3DA /* herhealthapp */;
@@ -561,6 +648,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DC0E843426F7FEE6008CF766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthapp.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC0E843526F7FEE6008CF766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4475FR7A2V;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.herhealthfirst.herhealthapp.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DC96A57A26C997620071C3DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -681,6 +806,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA44ADC99577F7F75193F9A0 /* Pods-herhealthapp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = herhealthapp/herhealthapp.entitlements;
@@ -704,6 +830,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57E342F6531CF2F7EA30E56D /* Pods-herhealthapp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = herhealthapp/herhealthapp.entitlements;
@@ -814,6 +941,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC0E843326F7FEE6008CF766 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0E843426F7FEE6008CF766 /* Debug */,
+				DC0E843526F7FEE6008CF766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC96A54D26C997620071C3DA /* Build configuration list for PBXProject "herhealthapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
