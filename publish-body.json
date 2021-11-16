@@ -1,0 +1,12 @@
+{
+  "interests": ["hello"],
+  "apns": {
+    "aps": {
+        "alert":"YOUR MOM - RAGNESH",
+        "badge":1,
+        "sound":"default",
+        "mutable-content": 1,
+        "attachment-url": "https://media-exp1.licdn.com/dms/image/C4E03AQGXPLvkZA8QNg/profile-displayphoto-shrink_100_100/0/1618870547218?e=1637193600&v=beta&t=UAb7zm2vxDCkH55fXB_qDGUN361VT_IyBpkdIwy69b4"
+           }
+    }
+  }

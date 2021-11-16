@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E23DC4B100F99D5415656205915558C /* Encodable+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CFAA750ECE3BBE29A4254FBFD60F4 /* Encodable+Encode.swift */; };
+		0F02C050E5FF9E07CEDC44FB05C13687 /* MultipleInvalidInterestsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A5480506407DDEAF8D12555D2DE50 /* MultipleInvalidInterestsError.swift */; };
+		137E2B2046F20DD023920C9CEAD11C94 /* InterestValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA233F6DCA624F137BD8D0CB4759DF94 /* InterestValidationError.swift */; };
+		1508406499344EB85E4DF549800F14ED /* PusherAlreadyRegisteredError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA63833C4AADD5C2F0D93EE72244F /* PusherAlreadyRegisteredError.swift */; };
+		187D710A058ACAC3226059F2ADD433BB /* ServerSyncEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F290E1072F7CAD7E461F4C07E8F0BBE6 /* ServerSyncEventHandler.swift */; };
+		1B8B921BAEBF06F827613A0C363F99AD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E90BD0588FF618E97F573424AAF8E3 /* HTTPMethod.swift */; };
+		21BDCAA49FFE1AF2A7552532FDDA556B /* EventTypeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F69B7F39DDF0ED69271673C26B3F81 /* EventTypeHandler.swift */; };
+		296B6B4BA08852F1C168D3E02E9B1201 /* PushNotificationsNetworkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD5289B93A82E729CBDB992B0A7AF0 /* PushNotificationsNetworkable.swift */; };
+		2C1358D05318EACA92FC8E39967057EB /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36675B24109B6C489C139F6D5DA5B36 /* AuthData.swift */; };
+		2EC87F5105C803902AF1190B03F55AFB /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C998796E00C2971D9F19774D1010EB27 /* PushNotifications.swift */; };
+		387EB92B9D04B01A2A88AE9440F004D6 /* Pods-herhealthapp-herhealthappUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F99AB74DF8D624BC19BF6AB303D4DB8 /* Pods-herhealthapp-herhealthappUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D97E6CDDA08319B09367D5B551A0EE /* Pods-herhealthappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EFB962881564966F9F463B59CA0D70 /* Pods-herhealthappTests-dummy.m */; };
+		4485DBE6166B21711518D9939590E283 /* PushNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 578D3730C976102112250D88CA2C40F5 /* PushNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481A81322E3516750CF64266CB3880B7 /* Pods-herhealthapp-herhealthappUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC669DA3073FE108A14D4AC4F23CFCAE /* Pods-herhealthapp-herhealthappUITests-dummy.m */; };
+		4B697BB5B639552CC89FC12D38946157 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828F0A1D42AEECB0EF6D7149E075546 /* Metadata.swift */; };
+		4D6014A2E0ABDA7C75C0619CA7628177 /* ServerSyncProcessHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29A99064E5BD98D4377A04F054C283 /* ServerSyncProcessHandler.swift */; };
+		5039D1638307EA0AD22B85F73AE44568 /* PropertyListReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C0769ECF40D06CE7F0F5A2FE8F8A8 /* PropertyListReadable.swift */; };
+		563CBF5D59451AC92C6E769B35CCC5C3 /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6131E305E99BBB5D0C5F983C633E7F5 /* TokenProvider.swift */; };
+		60C82E2394D55367EA0BDA22A50AF572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		62A514C25FEB8872BF067BD107F76E7C /* Interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEB08FC6ECDAE237A86CFC1A063335 /* Interests.swift */; };
+		64411F2D981DB07B37E8EE4D462237FE /* PersistenceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0606D747D1A46DF884B9512A897ADBF8 /* PersistenceConstants.swift */; };
+		740770708D6DE4DF21F2E7FA7F13984D /* InstanceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78760F18E78B1FE300F630DA50234477 /* InstanceId.swift */; };
+		7A03B15FD38DA8E761A8E50F0ED9FE29 /* URL+NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586802A81D81749AC6EF9077E18368F /* URL+NetworkService.swift */; };
+		7AE13961C727DF2F71AD0F0D365A1AD3 /* String+HexStringToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30959F60DD0ED3201D05A1451103347A /* String+HexStringToData.swift */; };
+		8B2903D2570E30ADDA0BE38020CE4D60 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1641AE98BB8086C548E14723B91860 /* Token.swift */; };
+		8BC3A60F590B5D68ED6976B95FE37369 /* ReportEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9F9B32A1118B9D191C2F49E938EF93 /* ReportEventType.swift */; };
+		8F4F64B3F535F8FAC5D0AC527DDCD9EE /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71724DA5A7C22E200A5FED712D399FFB /* Device.swift */; };
+		9B957BEA8466DEFD2B9C4BBFB9709317 /* PushNotificationsStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74854401881B8017354BD1D63760550F /* PushNotificationsStatic.swift */; };
+		A0CFCB8C8147F83B6F208F98C6A92F4A /* PublishId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720408C9621E1784FBE6DFCC268FDCA /* PublishId.swift */; };
+		A4F028391E5C5D38538E2C8CA3286D3F /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA83C6A6E90CA20A13450F5AA0077A22 /* RetryStrategy.swift */; };
+		A8B3CA47D61BF238A67E8DA62679CFE6 /* DeviceTokenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B26EADBAA14AA9ED15165964C9FD86 /* DeviceTokenHelper.swift */; };
+		AA6984021925245B336CFC370A1F1F02 /* DeviceStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E03D70EC73ADD14F8D86C1248071B69 /* DeviceStateStore.swift */; };
+		AEF772B47FE6F25C86960221BC5462BF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CA9DE0E51666D5731FEB8C733563E /* NetworkService.swift */; };
+		AF798F3E19F5AB81DAE587A1599A1EE3 /* PushNotificationsAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83534D6BACB3CDD0CCA54235B37D025 /* PushNotificationsAPIError.swift */; };
+		B6D367600B97377DF094C4419616973B /* RemoteNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1644137A714BB6A5C7BD3134E2E861C /* RemoteNotificationType.swift */; };
+		B8D7FB819E54DB32CC4AFD80FB9CF87F /* Pods-herhealthapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE19C5241FADE821B7B7E43C82CDCBB2 /* Pods-herhealthapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91AEC2EFD1E35215B2A0ED68260B592 /* Array+CalculateMD5Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D49F3589987581F58DCF8D9B32554 /* Array+CalculateMD5Hash.swift */; };
+		BB15D7C164987EC310FB2036CBA6A7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB52462E08B53AE70244AC07210C327A /* ServerSyncJobStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B173904BC85B90C80488F2CA3CFD7 /* ServerSyncJobStore.swift */; };
+		C12260F70CCEAE8933BEFC46E887D2BD /* ServerSyncEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6649DA942AEA2F97D825D9E4A2DAB /* ServerSyncEvent.swift */; };
+		C156492A9E83B86565763680CE7E042E /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A622C1E554E9BFBD954BBE1C4C9610B /* MD5.swift */; };
+		C743B049E7A23B2CC57E534DC63DEFD1 /* BeamsTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637905862CB4EFED29C0203A28A58BD1 /* BeamsTokenProvider.swift */; };
+		C9DBFA5F4442CF476215F5A08CAC55C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19252B5C3D623CDE4799CBC83958C6 /* Constants.swift */; };
+		CA67D972F61519CE24E66280165EB6EE /* SystemVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44130C72F748B0A3AB3C235E67FB9F3A /* SystemVersion.swift */; };
+		CC618CC16E5BEDF252C298950704834D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CEFED52306D4BCB93AD06131BFACFE69 /* Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12589E30E3DD4E861D9D2A342B2574F3 /* Reason.swift */; };
+		D010C4B1FF1DD423DDA3B4F6DA8A95D7 /* PushNotificationsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC571056DD91BB1CCA75C4DF4135020E /* PushNotificationsError.swift */; };
+		D2BFC4A71152EA474C71FAEC56CA84BD /* FeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FFA094886638F80C5BE3F483DE8416 /* FeatureFlags.swift */; };
+		D7AF1509DB9C221F23FC39AEC505F670 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF86B49555FE4F268FF50384BD2885 /* SDK.swift */; };
+		D88519EA993E558B7C369770D07C3E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA2C834A8D9CBA780E5C2C9443C14537 /* ServerSyncJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218D9859905722B07BB3725FC89FAF8 /* ServerSyncJob.swift */; };
+		EA37D605A69D2B3127566553849C23D7 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1220F0A8DE8CC2D0586B50B64E18C6 /* Register.swift */; };
+		F354D39128A6640FB530363E08BF3865 /* PushNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6431038891BC672A741701BE003BA /* PushNotifications-dummy.m */; };
+		F760A29B4834AB265FA109F382E4EB44 /* Pods-herhealthapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C6F2FC516C34A5286F019DEFBE64DE /* Pods-herhealthapp-dummy.m */; };
+		FA387BBB13B1725BC0189BC2653F9CAF /* Pods-herhealthappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0570CC036AB92651FFFC84116864EDB0 /* Pods-herhealthappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4805384D7523F63C9D612886AD949423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B1DADA296FECDFA364A1F89C81BDE;
+			remoteInfo = PushNotifications;
+		};
+		5BA2591C2B369988DBA6B2B9F5A07846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B1DADA296FECDFA364A1F89C81BDE;
+			remoteInfo = PushNotifications;
+		};
+		688FB16F23EB12852D363F770BC22040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56846291D578F4857B6E812C28FA15B0;
+			remoteInfo = "Pods-herhealthapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0570CC036AB92651FFFC84116864EDB0 /* Pods-herhealthappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-herhealthappTests-umbrella.h"; sourceTree = "<group>"; };
+		0606D747D1A46DF884B9512A897ADBF8 /* PersistenceConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistenceConstants.swift; path = Sources/Models/PersistenceConstants.swift; sourceTree = "<group>"; };
+		0900F85E037C1AD637611B9F84D51DFE /* Pods-herhealthapp-herhealthappUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthapp-herhealthappUITests-Info.plist"; sourceTree = "<group>"; };
+		0BF987E11CC35612200F97E9B4E7CCFF /* Pods_herhealthapp_herhealthappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_herhealthapp_herhealthappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1220F0A8DE8CC2D0586B50B64E18C6 /* Register.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Register.swift; path = Sources/Models/Register.swift; sourceTree = "<group>"; };
+		11A172D2403F034C40DFC507F298E673 /* Pods-herhealthapp-herhealthappUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-herhealthapp-herhealthappUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12589E30E3DD4E861D9D2A342B2574F3 /* Reason.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reason.swift; path = Sources/Models/Reason.swift; sourceTree = "<group>"; };
+		150CFAA750ECE3BBE29A4254FBFD60F4 /* Encodable+Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Encodable+Encode.swift"; path = "Sources/Extensions/Encodable+Encode.swift"; sourceTree = "<group>"; };
+		151B173904BC85B90C80488F2CA3CFD7 /* ServerSyncJobStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSyncJobStore.swift; path = Sources/Services/ServerSyncJobStore.swift; sourceTree = "<group>"; };
+		183A5480506407DDEAF8D12555D2DE50 /* MultipleInvalidInterestsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleInvalidInterestsError.swift; path = Sources/Models/MultipleInvalidInterestsError.swift; sourceTree = "<group>"; };
+		1D1641AE98BB8086C548E14723B91860 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Models/Token.swift; sourceTree = "<group>"; };
+		1D4AAC7D3FC7B0DCEB06FD405E9BE667 /* Pods-herhealthapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthapp-Info.plist"; sourceTree = "<group>"; };
+		1E03D70EC73ADD14F8D86C1248071B69 /* DeviceStateStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceStateStore.swift; path = Sources/Services/DeviceStateStore.swift; sourceTree = "<group>"; };
+		1F19252B5C3D623CDE4799CBC83958C6 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Models/Constants.swift; sourceTree = "<group>"; };
+		255894D117A414F7F426B63363ED32A5 /* Pods-herhealthapp-herhealthappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthapp-herhealthappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28F6431038891BC672A741701BE003BA /* PushNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PushNotifications-dummy.m"; sourceTree = "<group>"; };
+		30959F60DD0ED3201D05A1451103347A /* String+HexStringToData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+HexStringToData.swift"; path = "Sources/Extensions/String+HexStringToData.swift"; sourceTree = "<group>"; };
+		30E49A19890CAC371D939BD7AF1A434A /* Pods-herhealthappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-herhealthappTests.modulemap"; sourceTree = "<group>"; };
+		31A3229E249EEEAB8367DFE048E38089 /* Pods-herhealthapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		31BFCF9F57BE6EC8E1A6955AACFD0646 /* PushNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PushNotifications.modulemap; sourceTree = "<group>"; };
+		3586802A81D81749AC6EF9077E18368F /* URL+NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+NetworkService.swift"; path = "Sources/Extensions/URL+NetworkService.swift"; sourceTree = "<group>"; };
+		3E4D49F3589987581F58DCF8D9B32554 /* Array+CalculateMD5Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+CalculateMD5Hash.swift"; path = "Sources/Extensions/Array+CalculateMD5Hash.swift"; sourceTree = "<group>"; };
+		434DA63833C4AADD5C2F0D93EE72244F /* PusherAlreadyRegisteredError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherAlreadyRegisteredError.swift; path = Sources/Models/PusherAlreadyRegisteredError.swift; sourceTree = "<group>"; };
+		44130C72F748B0A3AB3C235E67FB9F3A /* SystemVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemVersion.swift; path = Sources/Models/SystemVersion.swift; sourceTree = "<group>"; };
+		465FF88800E236DD259C09712B2E3EC9 /* Pods-herhealthapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-herhealthapp.modulemap"; sourceTree = "<group>"; };
+		46B0217C7C05CEFA2E960AAE2795A3CA /* PushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4720408C9621E1784FBE6DFCC268FDCA /* PublishId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishId.swift; path = Sources/Models/PublishId.swift; sourceTree = "<group>"; };
+		475EBEC15F6EBE55BBAD426F75CEFD33 /* Pods-herhealthappTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthappTests-Info.plist"; sourceTree = "<group>"; };
+		4828F0A1D42AEECB0EF6D7149E075546 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Sources/Models/Metadata.swift; sourceTree = "<group>"; };
+		4991F4AB80E35256A0510F054634E7C1 /* PushNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PushNotifications-Info.plist"; sourceTree = "<group>"; };
+		4ABB00235FEF2BF0B97B4D68FE56B85B /* Pods_herhealthappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_herhealthappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA8F554DE9FE8BC575E8A5FD04F0A2C /* PushNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PushNotifications.debug.xcconfig; sourceTree = "<group>"; };
+		4E29A99064E5BD98D4377A04F054C283 /* ServerSyncProcessHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSyncProcessHandler.swift; path = Sources/Services/ServerSyncProcessHandler.swift; sourceTree = "<group>"; };
+		4F99AB74DF8D624BC19BF6AB303D4DB8 /* Pods-herhealthapp-herhealthappUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-herhealthapp-herhealthappUITests-umbrella.h"; sourceTree = "<group>"; };
+		50EFB962881564966F9F463B59CA0D70 /* Pods-herhealthappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-herhealthappTests-dummy.m"; sourceTree = "<group>"; };
+		578D3730C976102112250D88CA2C40F5 /* PushNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PushNotifications-umbrella.h"; sourceTree = "<group>"; };
+		5BB8BF62DC3E6FD0A7CF82E778ABF30F /* Pods-herhealthapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthapp.release.xcconfig"; sourceTree = "<group>"; };
+		5C1180754400710A7B642C8230F060B0 /* Pods-herhealthapp-herhealthappUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthapp-herhealthappUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61FFA094886638F80C5BE3F483DE8416 /* FeatureFlags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureFlags.swift; path = Sources/Models/FeatureFlags.swift; sourceTree = "<group>"; };
+		637905862CB4EFED29C0203A28A58BD1 /* BeamsTokenProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeamsTokenProvider.swift; path = Sources/Services/BeamsTokenProvider.swift; sourceTree = "<group>"; };
+		6A622C1E554E9BFBD954BBE1C4C9610B /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/Helpers/MD5.swift; sourceTree = "<group>"; };
+		71724DA5A7C22E200A5FED712D399FFB /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Sources/Models/Device.swift; sourceTree = "<group>"; };
+		71C6F2FC516C34A5286F019DEFBE64DE /* Pods-herhealthapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-herhealthapp-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F69B7F39DDF0ED69271673C26B3F81 /* EventTypeHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventTypeHandler.swift; path = Sources/Services/EventTypeHandler.swift; sourceTree = "<group>"; };
+		74854401881B8017354BD1D63760550F /* PushNotificationsStatic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationsStatic.swift; path = Sources/PushNotificationsStatic.swift; sourceTree = "<group>"; };
+		78760F18E78B1FE300F630DA50234477 /* InstanceId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceId.swift; path = Sources/Models/InstanceId.swift; sourceTree = "<group>"; };
+		7CCF86B49555FE4F268FF50384BD2885 /* SDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDK.swift; path = Sources/Models/SDK.swift; sourceTree = "<group>"; };
+		7FC1D347FA356444A9F9E95C897CE9B1 /* Pods-herhealthappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-herhealthappTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8218D9859905722B07BB3725FC89FAF8 /* ServerSyncJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSyncJob.swift; path = Sources/Models/ServerSyncJob.swift; sourceTree = "<group>"; };
+		9A20C4F5C2B858872DEDD66FB8CB59CC /* PushNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PushNotifications-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAEB08FC6ECDAE237A86CFC1A063335 /* Interests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interests.swift; path = Sources/Models/Interests.swift; sourceTree = "<group>"; };
+		A09B8BAF02DDE7CD2CDA63096453F249 /* Pods-herhealthapp-herhealthappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthapp-herhealthappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9BD5289B93A82E729CBDB992B0A7AF0 /* PushNotificationsNetworkable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationsNetworkable.swift; path = Sources/Protocols/PushNotificationsNetworkable.swift; sourceTree = "<group>"; };
+		AE9F9B32A1118B9D191C2F49E938EF93 /* ReportEventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReportEventType.swift; path = Sources/Protocols/ReportEventType.swift; sourceTree = "<group>"; };
+		B27945660313373DEDFDF9FFC48F79F9 /* Pods_herhealthapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_herhealthapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CA9DE0E51666D5731FEB8C733563E /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = Sources/Services/NetworkService.swift; sourceTree = "<group>"; };
+		B83534D6BACB3CDD0CCA54235B37D025 /* PushNotificationsAPIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationsAPIError.swift; path = Sources/Models/PushNotificationsAPIError.swift; sourceTree = "<group>"; };
+		BC571056DD91BB1CCA75C4DF4135020E /* PushNotificationsError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationsError.swift; path = Sources/Models/PushNotificationsError.swift; sourceTree = "<group>"; };
+		BE1C0769ECF40D06CE7F0F5A2FE8F8A8 /* PropertyListReadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListReadable.swift; path = Sources/Protocols/PropertyListReadable.swift; sourceTree = "<group>"; };
+		BF7995775E83B39C23439141B33851B9 /* Pods-herhealthappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthappTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1E90BD0588FF618E97F573424AAF8E3 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/Models/HTTPMethod.swift; sourceTree = "<group>"; };
+		C275B04C198551E6836A2BE5D489B8C3 /* Pods-herhealthapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-herhealthapp-frameworks.sh"; sourceTree = "<group>"; };
+		C998796E00C2971D9F19774D1010EB27 /* PushNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotifications.swift; path = Sources/PushNotifications.swift; sourceTree = "<group>"; };
+		CA233F6DCA624F137BD8D0CB4759DF94 /* InterestValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterestValidationError.swift; path = Sources/Models/InterestValidationError.swift; sourceTree = "<group>"; };
+		CA83C6A6E90CA20A13450F5AA0077A22 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Protocols/RetryStrategy.swift; sourceTree = "<group>"; };
+		D09D10D4D6EEB33C471ECAFF08BD98DC /* Pods-herhealthapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-herhealthapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1644137A714BB6A5C7BD3134E2E861C /* RemoteNotificationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteNotificationType.swift; path = Sources/Models/RemoteNotificationType.swift; sourceTree = "<group>"; };
+		D3CB5ACBE938D94785CB3D68310D98C4 /* Pods-herhealthappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-herhealthappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6131E305E99BBB5D0C5F983C633E7F5 /* TokenProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenProvider.swift; path = Sources/Protocols/TokenProvider.swift; sourceTree = "<group>"; };
+		D9A6649DA942AEA2F97D825D9E4A2DAB /* ServerSyncEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSyncEvent.swift; path = Sources/Models/ServerSyncEvent.swift; sourceTree = "<group>"; };
+		DCB6820F5E18D6E55D6E7B9B1DE9C375 /* Pods-herhealthappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA9D780F9AB96EC647485CB7089AC471 /* PushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PushNotifications.release.xcconfig; sourceTree = "<group>"; };
+		EC669DA3073FE108A14D4AC4F23CFCAE /* Pods-herhealthapp-herhealthappUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-herhealthapp-herhealthappUITests-dummy.m"; sourceTree = "<group>"; };
+		F21C3C2B04F106879B0A5DC4450A9B7A /* Pods-herhealthapp-herhealthappUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-herhealthapp-herhealthappUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F290E1072F7CAD7E461F4C07E8F0BBE6 /* ServerSyncEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSyncEventHandler.swift; path = Sources/Services/ServerSyncEventHandler.swift; sourceTree = "<group>"; };
+		F36675B24109B6C489C139F6D5DA5B36 /* AuthData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthData.swift; path = Sources/Models/AuthData.swift; sourceTree = "<group>"; };
+		F7B26EADBAA14AA9ED15165964C9FD86 /* DeviceTokenHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceTokenHelper.swift; path = Sources/Helpers/DeviceTokenHelper.swift; sourceTree = "<group>"; };
+		F7D00F4E086782A30576077D511CA284 /* Pods-herhealthapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-herhealthapp.debug.xcconfig"; sourceTree = "<group>"; };
+		FA668194C40814A72307FF915F7536D5 /* Pods-herhealthapp-herhealthappUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-herhealthapp-herhealthappUITests.modulemap"; sourceTree = "<group>"; };
+		FE19C5241FADE821B7B7E43C82CDCBB2 /* Pods-herhealthapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-herhealthapp-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0696F090C958FDD0EB316D74240C58DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C82E2394D55367EA0BDA22A50AF572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBDC1BB862BD17F0714177C29871EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB15D7C164987EC310FB2036CBA6A7DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C418142FA8F9C5C345AFE06D3A7738C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88519EA993E558B7C369770D07C3E1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D779F0C27617B1E0A19062261E8EE84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC618CC16E5BEDF252C298950704834D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064284261FC4A0398F168ED39C7716F9 /* Pods-herhealthapp-herhealthappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA668194C40814A72307FF915F7536D5 /* Pods-herhealthapp-herhealthappUITests.modulemap */,
+				11A172D2403F034C40DFC507F298E673 /* Pods-herhealthapp-herhealthappUITests-acknowledgements.markdown */,
+				5C1180754400710A7B642C8230F060B0 /* Pods-herhealthapp-herhealthappUITests-acknowledgements.plist */,
+				EC669DA3073FE108A14D4AC4F23CFCAE /* Pods-herhealthapp-herhealthappUITests-dummy.m */,
+				F21C3C2B04F106879B0A5DC4450A9B7A /* Pods-herhealthapp-herhealthappUITests-frameworks.sh */,
+				0900F85E037C1AD637611B9F84D51DFE /* Pods-herhealthapp-herhealthappUITests-Info.plist */,
+				4F99AB74DF8D624BC19BF6AB303D4DB8 /* Pods-herhealthapp-herhealthappUITests-umbrella.h */,
+				255894D117A414F7F426B63363ED32A5 /* Pods-herhealthapp-herhealthappUITests.debug.xcconfig */,
+				A09B8BAF02DDE7CD2CDA63096453F249 /* Pods-herhealthapp-herhealthappUITests.release.xcconfig */,
+			);
+			name = "Pods-herhealthapp-herhealthappUITests";
+			path = "Target Support Files/Pods-herhealthapp-herhealthappUITests";
+			sourceTree = "<group>";
+		};
+		1C1EAFEF6AF4484E8C5AB8217211781B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27945660313373DEDFDF9FFC48F79F9 /* Pods_herhealthapp.framework */,
+				0BF987E11CC35612200F97E9B4E7CCFF /* Pods_herhealthapp_herhealthappUITests.framework */,
+				4ABB00235FEF2BF0B97B4D68FE56B85B /* Pods_herhealthappTests.framework */,
+				46B0217C7C05CEFA2E960AAE2795A3CA /* PushNotifications.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208F8ABD2B3A80246A738560B2AF3322 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BFCF9F57BE6EC8E1A6955AACFD0646 /* PushNotifications.modulemap */,
+				28F6431038891BC672A741701BE003BA /* PushNotifications-dummy.m */,
+				4991F4AB80E35256A0510F054634E7C1 /* PushNotifications-Info.plist */,
+				9A20C4F5C2B858872DEDD66FB8CB59CC /* PushNotifications-prefix.pch */,
+				578D3730C976102112250D88CA2C40F5 /* PushNotifications-umbrella.h */,
+				4DA8F554DE9FE8BC575E8A5FD04F0A2C /* PushNotifications.debug.xcconfig */,
+				EA9D780F9AB96EC647485CB7089AC471 /* PushNotifications.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PushNotifications";
+			sourceTree = "<group>";
+		};
+		2239F31DF77AE13BF7FDC7F692160DD2 /* Pods-herhealthappTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E49A19890CAC371D939BD7AF1A434A /* Pods-herhealthappTests.modulemap */,
+				D3CB5ACBE938D94785CB3D68310D98C4 /* Pods-herhealthappTests-acknowledgements.markdown */,
+				7FC1D347FA356444A9F9E95C897CE9B1 /* Pods-herhealthappTests-acknowledgements.plist */,
+				50EFB962881564966F9F463B59CA0D70 /* Pods-herhealthappTests-dummy.m */,
+				475EBEC15F6EBE55BBAD426F75CEFD33 /* Pods-herhealthappTests-Info.plist */,
+				0570CC036AB92651FFFC84116864EDB0 /* Pods-herhealthappTests-umbrella.h */,
+				DCB6820F5E18D6E55D6E7B9B1DE9C375 /* Pods-herhealthappTests.debug.xcconfig */,
+				BF7995775E83B39C23439141B33851B9 /* Pods-herhealthappTests.release.xcconfig */,
+			);
+			name = "Pods-herhealthappTests";
+			path = "Target Support Files/Pods-herhealthappTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60FAB1826CF2CAE1926AB28CB56EF54F /* Pods-herhealthapp */ = {
+			isa = PBXGroup;
+			children = (
+				465FF88800E236DD259C09712B2E3EC9 /* Pods-herhealthapp.modulemap */,
+				D09D10D4D6EEB33C471ECAFF08BD98DC /* Pods-herhealthapp-acknowledgements.markdown */,
+				31A3229E249EEEAB8367DFE048E38089 /* Pods-herhealthapp-acknowledgements.plist */,
+				71C6F2FC516C34A5286F019DEFBE64DE /* Pods-herhealthapp-dummy.m */,
+				C275B04C198551E6836A2BE5D489B8C3 /* Pods-herhealthapp-frameworks.sh */,
+				1D4AAC7D3FC7B0DCEB06FD405E9BE667 /* Pods-herhealthapp-Info.plist */,
+				FE19C5241FADE821B7B7E43C82CDCBB2 /* Pods-herhealthapp-umbrella.h */,
+				F7D00F4E086782A30576077D511CA284 /* Pods-herhealthapp.debug.xcconfig */,
+				5BB8BF62DC3E6FD0A7CF82E778ABF30F /* Pods-herhealthapp.release.xcconfig */,
+			);
+			name = "Pods-herhealthapp";
+			path = "Target Support Files/Pods-herhealthapp";
+			sourceTree = "<group>";
+		};
+		7D560799DC6A89A0222AFC8D08DD3313 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FAB1826CF2CAE1926AB28CB56EF54F /* Pods-herhealthapp */,
+				064284261FC4A0398F168ED39C7716F9 /* Pods-herhealthapp-herhealthappUITests */,
+				2239F31DF77AE13BF7FDC7F692160DD2 /* Pods-herhealthappTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		82C7D34F91AD6A9681F457382D9171F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD0AAAC1018F5671BB4EA32A0F5C8F4 /* PushNotifications */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFD0AAAC1018F5671BB4EA32A0F5C8F4 /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				3E4D49F3589987581F58DCF8D9B32554 /* Array+CalculateMD5Hash.swift */,
+				F36675B24109B6C489C139F6D5DA5B36 /* AuthData.swift */,
+				637905862CB4EFED29C0203A28A58BD1 /* BeamsTokenProvider.swift */,
+				1F19252B5C3D623CDE4799CBC83958C6 /* Constants.swift */,
+				71724DA5A7C22E200A5FED712D399FFB /* Device.swift */,
+				1E03D70EC73ADD14F8D86C1248071B69 /* DeviceStateStore.swift */,
+				F7B26EADBAA14AA9ED15165964C9FD86 /* DeviceTokenHelper.swift */,
+				150CFAA750ECE3BBE29A4254FBFD60F4 /* Encodable+Encode.swift */,
+				73F69B7F39DDF0ED69271673C26B3F81 /* EventTypeHandler.swift */,
+				61FFA094886638F80C5BE3F483DE8416 /* FeatureFlags.swift */,
+				C1E90BD0588FF618E97F573424AAF8E3 /* HTTPMethod.swift */,
+				78760F18E78B1FE300F630DA50234477 /* InstanceId.swift */,
+				9DAEB08FC6ECDAE237A86CFC1A063335 /* Interests.swift */,
+				CA233F6DCA624F137BD8D0CB4759DF94 /* InterestValidationError.swift */,
+				6A622C1E554E9BFBD954BBE1C4C9610B /* MD5.swift */,
+				4828F0A1D42AEECB0EF6D7149E075546 /* Metadata.swift */,
+				183A5480506407DDEAF8D12555D2DE50 /* MultipleInvalidInterestsError.swift */,
+				B61CA9DE0E51666D5731FEB8C733563E /* NetworkService.swift */,
+				0606D747D1A46DF884B9512A897ADBF8 /* PersistenceConstants.swift */,
+				BE1C0769ECF40D06CE7F0F5A2FE8F8A8 /* PropertyListReadable.swift */,
+				4720408C9621E1784FBE6DFCC268FDCA /* PublishId.swift */,
+				434DA63833C4AADD5C2F0D93EE72244F /* PusherAlreadyRegisteredError.swift */,
+				C998796E00C2971D9F19774D1010EB27 /* PushNotifications.swift */,
+				B83534D6BACB3CDD0CCA54235B37D025 /* PushNotificationsAPIError.swift */,
+				BC571056DD91BB1CCA75C4DF4135020E /* PushNotificationsError.swift */,
+				A9BD5289B93A82E729CBDB992B0A7AF0 /* PushNotificationsNetworkable.swift */,
+				74854401881B8017354BD1D63760550F /* PushNotificationsStatic.swift */,
+				12589E30E3DD4E861D9D2A342B2574F3 /* Reason.swift */,
+				0C1220F0A8DE8CC2D0586B50B64E18C6 /* Register.swift */,
+				D1644137A714BB6A5C7BD3134E2E861C /* RemoteNotificationType.swift */,
+				AE9F9B32A1118B9D191C2F49E938EF93 /* ReportEventType.swift */,
+				CA83C6A6E90CA20A13450F5AA0077A22 /* RetryStrategy.swift */,
+				7CCF86B49555FE4F268FF50384BD2885 /* SDK.swift */,
+				D9A6649DA942AEA2F97D825D9E4A2DAB /* ServerSyncEvent.swift */,
+				F290E1072F7CAD7E461F4C07E8F0BBE6 /* ServerSyncEventHandler.swift */,
+				8218D9859905722B07BB3725FC89FAF8 /* ServerSyncJob.swift */,
+				151B173904BC85B90C80488F2CA3CFD7 /* ServerSyncJobStore.swift */,
+				4E29A99064E5BD98D4377A04F054C283 /* ServerSyncProcessHandler.swift */,
+				30959F60DD0ED3201D05A1451103347A /* String+HexStringToData.swift */,
+				44130C72F748B0A3AB3C235E67FB9F3A /* SystemVersion.swift */,
+				1D1641AE98BB8086C548E14723B91860 /* Token.swift */,
+				D6131E305E99BBB5D0C5F983C633E7F5 /* TokenProvider.swift */,
+				3586802A81D81749AC6EF9077E18368F /* URL+NetworkService.swift */,
+				208F8ABD2B3A80246A738560B2AF3322 /* Support Files */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				82C7D34F91AD6A9681F457382D9171F0 /* Pods */,
+				1C1EAFEF6AF4484E8C5AB8217211781B /* Products */,
+				7D560799DC6A89A0222AFC8D08DD3313 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		275ABEDC57596214DA3C94246FE97824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387EB92B9D04B01A2A88AE9440F004D6 /* Pods-herhealthapp-herhealthappUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6C7C17CA51ACDD46C2674F212663E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA387BBB13B1725BC0189BC2653F9CAF /* Pods-herhealthappTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B28C9AEC4A64F173BF9AD249E2F142 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D7FB819E54DB32CC4AFD80FB9CF87F /* Pods-herhealthapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2496FC884C5B62E6783263FFA23BA1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4485DBE6166B21711518D9939590E283 /* PushNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56846291D578F4857B6E812C28FA15B0 /* Pods-herhealthapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38169D68415724579AD2DDA36154C7E8 /* Build configuration list for PBXNativeTarget "Pods-herhealthapp" */;
+			buildPhases = (
+				B8B28C9AEC4A64F173BF9AD249E2F142 /* Headers */,
+				9D9011396CCC4948F6FFB96F2E516ABE /* Sources */,
+				D779F0C27617B1E0A19062261E8EE84D /* Frameworks */,
+				84F9FD0D664DC13544E5E0FF89CAE55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DD54C3623499BD095B4BA516B38902 /* PBXTargetDependency */,
+			);
+			name = "Pods-herhealthapp";
+			productName = "Pods-herhealthapp";
+			productReference = B27945660313373DEDFDF9FFC48F79F9 /* Pods_herhealthapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6221B9EBF4F9F17914A1B70396998880 /* Pods-herhealthappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD375CC7FAF4D871A541A5FE0629273 /* Build configuration list for PBXNativeTarget "Pods-herhealthappTests" */;
+			buildPhases = (
+				3A6C7C17CA51ACDD46C2674F212663E7 /* Headers */,
+				72A6CBC3FE8D5CF1DC0A01396C0F8A3B /* Sources */,
+				C418142FA8F9C5C345AFE06D3A7738C8 /* Frameworks */,
+				66997618A35A77410517D1E50CBD6122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B3A72E127BFABFFA895DA55F48C8976 /* PBXTargetDependency */,
+			);
+			name = "Pods-herhealthappTests";
+			productName = "Pods-herhealthappTests";
+			productReference = 4ABB00235FEF2BF0B97B4D68FE56B85B /* Pods_herhealthappTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC2B1DADA296FECDFA364A1F89C81BDE /* PushNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7B8E3A7F8BC3032C8127CDE76A68CC /* Build configuration list for PBXNativeTarget "PushNotifications" */;
+			buildPhases = (
+				D2496FC884C5B62E6783263FFA23BA1F /* Headers */,
+				8D847373E974805CAFC2D516E3468FE5 /* Sources */,
+				0696F090C958FDD0EB316D74240C58DA /* Frameworks */,
+				A72DEA74812EDD91390C988F23FD3CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotifications;
+			productName = PushNotifications;
+			productReference = 46B0217C7C05CEFA2E960AAE2795A3CA /* PushNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F05C615AFD48C8EE19910EFE0709A66E /* Pods-herhealthapp-herhealthappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C5013D20EC1B90ABACCB94505DC6EA /* Build configuration list for PBXNativeTarget "Pods-herhealthapp-herhealthappUITests" */;
+			buildPhases = (
+				275ABEDC57596214DA3C94246FE97824 /* Headers */,
+				8A6C2133CB79E17716CE637821AFC353 /* Sources */,
+				9CBDC1BB862BD17F0714177C29871EAE /* Frameworks */,
+				F592A3E262B6BCCE9827016215E26490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE6420CC69E3C8A02D3D27275171C43 /* PBXTargetDependency */,
+			);
+			name = "Pods-herhealthapp-herhealthappUITests";
+			productName = "Pods-herhealthapp-herhealthappUITests";
+			productReference = 0BF987E11CC35612200F97E9B4E7CCFF /* Pods_herhealthapp_herhealthappUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1C1EAFEF6AF4484E8C5AB8217211781B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56846291D578F4857B6E812C28FA15B0 /* Pods-herhealthapp */,
+				F05C615AFD48C8EE19910EFE0709A66E /* Pods-herhealthapp-herhealthappUITests */,
+				6221B9EBF4F9F17914A1B70396998880 /* Pods-herhealthappTests */,
+				CC2B1DADA296FECDFA364A1F89C81BDE /* PushNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66997618A35A77410517D1E50CBD6122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F9FD0D664DC13544E5E0FF89CAE55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72DEA74812EDD91390C988F23FD3CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F592A3E262B6BCCE9827016215E26490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A6CBC3FE8D5CF1DC0A01396C0F8A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D97E6CDDA08319B09367D5B551A0EE /* Pods-herhealthappTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6C2133CB79E17716CE637821AFC353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481A81322E3516750CF64266CB3880B7 /* Pods-herhealthapp-herhealthappUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D847373E974805CAFC2D516E3468FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91AEC2EFD1E35215B2A0ED68260B592 /* Array+CalculateMD5Hash.swift in Sources */,
+				2C1358D05318EACA92FC8E39967057EB /* AuthData.swift in Sources */,
+				C743B049E7A23B2CC57E534DC63DEFD1 /* BeamsTokenProvider.swift in Sources */,
+				C9DBFA5F4442CF476215F5A08CAC55C7 /* Constants.swift in Sources */,
+				8F4F64B3F535F8FAC5D0AC527DDCD9EE /* Device.swift in Sources */,
+				AA6984021925245B336CFC370A1F1F02 /* DeviceStateStore.swift in Sources */,
+				A8B3CA47D61BF238A67E8DA62679CFE6 /* DeviceTokenHelper.swift in Sources */,
+				0E23DC4B100F99D5415656205915558C /* Encodable+Encode.swift in Sources */,
+				21BDCAA49FFE1AF2A7552532FDDA556B /* EventTypeHandler.swift in Sources */,
+				D2BFC4A71152EA474C71FAEC56CA84BD /* FeatureFlags.swift in Sources */,
+				1B8B921BAEBF06F827613A0C363F99AD /* HTTPMethod.swift in Sources */,
+				740770708D6DE4DF21F2E7FA7F13984D /* InstanceId.swift in Sources */,
+				62A514C25FEB8872BF067BD107F76E7C /* Interests.swift in Sources */,
+				137E2B2046F20DD023920C9CEAD11C94 /* InterestValidationError.swift in Sources */,
+				C156492A9E83B86565763680CE7E042E /* MD5.swift in Sources */,
+				4B697BB5B639552CC89FC12D38946157 /* Metadata.swift in Sources */,
+				0F02C050E5FF9E07CEDC44FB05C13687 /* MultipleInvalidInterestsError.swift in Sources */,
+				AEF772B47FE6F25C86960221BC5462BF /* NetworkService.swift in Sources */,
+				64411F2D981DB07B37E8EE4D462237FE /* PersistenceConstants.swift in Sources */,
+				5039D1638307EA0AD22B85F73AE44568 /* PropertyListReadable.swift in Sources */,
+				A0CFCB8C8147F83B6F208F98C6A92F4A /* PublishId.swift in Sources */,
+				1508406499344EB85E4DF549800F14ED /* PusherAlreadyRegisteredError.swift in Sources */,
+				F354D39128A6640FB530363E08BF3865 /* PushNotifications-dummy.m in Sources */,
+				2EC87F5105C803902AF1190B03F55AFB /* PushNotifications.swift in Sources */,
+				AF798F3E19F5AB81DAE587A1599A1EE3 /* PushNotificationsAPIError.swift in Sources */,
+				D010C4B1FF1DD423DDA3B4F6DA8A95D7 /* PushNotificationsError.swift in Sources */,
+				296B6B4BA08852F1C168D3E02E9B1201 /* PushNotificationsNetworkable.swift in Sources */,
+				9B957BEA8466DEFD2B9C4BBFB9709317 /* PushNotificationsStatic.swift in Sources */,
+				CEFED52306D4BCB93AD06131BFACFE69 /* Reason.swift in Sources */,
+				EA37D605A69D2B3127566553849C23D7 /* Register.swift in Sources */,
+				B6D367600B97377DF094C4419616973B /* RemoteNotificationType.swift in Sources */,
+				8BC3A60F590B5D68ED6976B95FE37369 /* ReportEventType.swift in Sources */,
+				A4F028391E5C5D38538E2C8CA3286D3F /* RetryStrategy.swift in Sources */,
+				D7AF1509DB9C221F23FC39AEC505F670 /* SDK.swift in Sources */,
+				C12260F70CCEAE8933BEFC46E887D2BD /* ServerSyncEvent.swift in Sources */,
+				187D710A058ACAC3226059F2ADD433BB /* ServerSyncEventHandler.swift in Sources */,
+				EA2C834A8D9CBA780E5C2C9443C14537 /* ServerSyncJob.swift in Sources */,
+				BB52462E08B53AE70244AC07210C327A /* ServerSyncJobStore.swift in Sources */,
+				4D6014A2E0ABDA7C75C0619CA7628177 /* ServerSyncProcessHandler.swift in Sources */,
+				7AE13961C727DF2F71AD0F0D365A1AD3 /* String+HexStringToData.swift in Sources */,
+				CA67D972F61519CE24E66280165EB6EE /* SystemVersion.swift in Sources */,
+				8B2903D2570E30ADDA0BE38020CE4D60 /* Token.swift in Sources */,
+				563CBF5D59451AC92C6E769B35CCC5C3 /* TokenProvider.swift in Sources */,
+				7A03B15FD38DA8E761A8E50F0ED9FE29 /* URL+NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9011396CCC4948F6FFB96F2E516ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F760A29B4834AB265FA109F382E4EB44 /* Pods-herhealthapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B3A72E127BFABFFA895DA55F48C8976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-herhealthapp";
+			target = 56846291D578F4857B6E812C28FA15B0 /* Pods-herhealthapp */;
+			targetProxy = 688FB16F23EB12852D363F770BC22040 /* PBXContainerItemProxy */;
+		};
+		91DD54C3623499BD095B4BA516B38902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PushNotifications;
+			target = CC2B1DADA296FECDFA364A1F89C81BDE /* PushNotifications */;
+			targetProxy = 5BA2591C2B369988DBA6B2B9F5A07846 /* PBXContainerItemProxy */;
+		};
+		CBE6420CC69E3C8A02D3D27275171C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PushNotifications;
+			target = CC2B1DADA296FECDFA364A1F89C81BDE /* PushNotifications */;
+			targetProxy = 4805384D7523F63C9D612886AD949423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		059E91BF7196D081FDE048ADF45D04B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D00F4E086782A30576077D511CA284 /* Pods-herhealthapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthapp/Pods-herhealthapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthapp/Pods-herhealthapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C096C1C7F8636EEEC3C84D5A4AAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA8F554DE9FE8BC575E8A5FD04F0A2C /* PushNotifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PushNotifications/PushNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PushNotifications/PushNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PushNotifications/PushNotifications.modulemap";
+				PRODUCT_MODULE_NAME = PushNotifications;
+				PRODUCT_NAME = PushNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A0E4BF0BF599F625E5610CFAF0C9483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB8BF62DC3E6FD0A7CF82E778ABF30F /* Pods-herhealthapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthapp/Pods-herhealthapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthapp/Pods-herhealthapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45B62144772C3932729915E2C3CF2C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB6820F5E18D6E55D6E7B9B1DE9C375 /* Pods-herhealthappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthappTests/Pods-herhealthappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthappTests/Pods-herhealthappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61046E5E4A09D6FF8EA718478F5ADC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09B8BAF02DDE7CD2CDA63096453F249 /* Pods-herhealthapp-herhealthappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B62E75E021324AB6B0A91B25EBE50094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9D780F9AB96EC647485CB7089AC471 /* PushNotifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PushNotifications/PushNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PushNotifications/PushNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PushNotifications/PushNotifications.modulemap";
+				PRODUCT_MODULE_NAME = PushNotifications;
+				PRODUCT_NAME = PushNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E647C837D4C2D8A3122255D2C660141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255894D117A414F7F426B63363ED32A5 /* Pods-herhealthapp-herhealthappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthapp-herhealthappUITests/Pods-herhealthapp-herhealthappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9690C7AA269664621C54BAA36DAC1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7995775E83B39C23439141B33851B9 /* Pods-herhealthappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-herhealthappTests/Pods-herhealthappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-herhealthappTests/Pods-herhealthappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38169D68415724579AD2DDA36154C7E8 /* Build configuration list for PBXNativeTarget "Pods-herhealthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E91BF7196D081FDE048ADF45D04B6 /* Debug */,
+				3A0E4BF0BF599F625E5610CFAF0C9483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7B8E3A7F8BC3032C8127CDE76A68CC /* Build configuration list for PBXNativeTarget "PushNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C096C1C7F8636EEEC3C84D5A4AAFDD /* Debug */,
+				B62E75E021324AB6B0A91B25EBE50094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD375CC7FAF4D871A541A5FE0629273 /* Build configuration list for PBXNativeTarget "Pods-herhealthappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B62144772C3932729915E2C3CF2C96 /* Debug */,
+				F9690C7AA269664621C54BAA36DAC1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C5013D20EC1B90ABACCB94505DC6EA /* Build configuration list for PBXNativeTarget "Pods-herhealthapp-herhealthappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E647C837D4C2D8A3122255D2C660141E /* Debug */,
+				61046E5E4A09D6FF8EA718478F5ADC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
